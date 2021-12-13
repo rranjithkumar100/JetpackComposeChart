@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red700">#00BCD4</color>
+    <color name="red900">#034C55</color>
+    <color name="status_bar">@color/red900</color>
+</resources>

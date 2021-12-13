@@ -4,10 +4,6 @@ This is an exploratory playground library to figure out how to Draw and animate 
 Currently this is using `1.0.1` library.
 
 
-## How it looks:
-
-<img src="/assets/pie_chart.gif" width="200"> <img src="/assets/bar_chart.gif" width="200"> <img src="/assets/line_chart.gif" width="200">
-
 ## How to use Pie Chart:
 
 ```kotlin

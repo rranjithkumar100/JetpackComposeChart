@@ -1,4 +1,4 @@
-package com.github.tehras.charts.ui.bar
+package com.github.ranjith.charts.ui.bar
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
@@ -16,10 +16,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.github.tehras.charts.bar.BarChart
-import com.github.tehras.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation
-import com.github.tehras.charts.theme.Margins
-import com.github.tehras.charts.ui.ChartScreenStatus
+import com.github.ranjith.charts.bar.BarChart
+import com.github.ranjith.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation
+import com.github.ranjith.charts.theme.Margins
+import com.github.ranjith.charts.ui.ChartScreenStatus
 
 @Composable
 fun BarChartScreen() {

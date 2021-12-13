@@ -1,4 +1,4 @@
-package com.github.tehras.charts.ui.line
+package com.github.ranjith.charts.ui.line
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
@@ -9,12 +9,12 @@ import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.github.tehras.charts.line.LineChart
-import com.github.tehras.charts.theme.Margins.horizontal
-import com.github.tehras.charts.theme.Margins.vertical
-import com.github.tehras.charts.theme.Margins.verticalLarge
-import com.github.tehras.charts.ui.ChartScreenStatus
-import com.github.tehras.charts.ui.line.LineChartDataModel.PointDrawerType
+import com.github.ranjith.charts.line.LineChart
+import com.github.ranjith.charts.theme.Margins.horizontal
+import com.github.ranjith.charts.theme.Margins.vertical
+import com.github.ranjith.charts.theme.Margins.verticalLarge
+import com.github.ranjith.charts.ui.ChartScreenStatus
+import com.github.ranjith.charts.ui.line.LineChartDataModel.PointDrawerType
 
 @Composable
 fun LineChartScreen() {

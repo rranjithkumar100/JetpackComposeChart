@@ -1,17 +1,17 @@
-package com.github.tehras.charts.ui.line
+package com.github.ranjith.charts.ui.line
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import com.github.tehras.charts.line.LineChartData
-import com.github.tehras.charts.line.LineChartData.Point
-import com.github.tehras.charts.line.renderer.point.FilledCircularPointDrawer
-import com.github.tehras.charts.line.renderer.point.HollowCircularPointDrawer
-import com.github.tehras.charts.line.renderer.point.NoPointDrawer
-import com.github.tehras.charts.line.renderer.point.PointDrawer
-import com.github.tehras.charts.ui.line.LineChartDataModel.PointDrawerType.Filled
-import com.github.tehras.charts.ui.line.LineChartDataModel.PointDrawerType.Hollow
-import com.github.tehras.charts.ui.line.LineChartDataModel.PointDrawerType.None
+import com.github.ranjith.charts.line.LineChartData
+import com.github.ranjith.charts.line.LineChartData.Point
+import com.github.ranjith.charts.line.renderer.point.FilledCircularPointDrawer
+import com.github.ranjith.charts.line.renderer.point.HollowCircularPointDrawer
+import com.github.ranjith.charts.line.renderer.point.NoPointDrawer
+import com.github.ranjith.charts.line.renderer.point.PointDrawer
+import com.github.ranjith.charts.ui.line.LineChartDataModel.PointDrawerType.Filled
+import com.github.ranjith.charts.ui.line.LineChartDataModel.PointDrawerType.Hollow
+import com.github.ranjith.charts.ui.line.LineChartDataModel.PointDrawerType.None
 
 class LineChartDataModel {
   var lineChartData by mutableStateOf(

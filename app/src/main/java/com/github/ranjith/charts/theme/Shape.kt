@@ -1,4 +1,4 @@
-package com.github.tehras.charts.theme
+package com.github.ranjith.charts.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

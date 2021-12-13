@@ -1,4 +1,4 @@
-package com.github.tehras.charts.ui.bar
+package com.github.ranjith.charts.ui.bar
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -6,13 +6,13 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.Black
 import androidx.compose.ui.graphics.Color.Companion.White
-import com.github.tehras.charts.bar.BarChartData
-import com.github.tehras.charts.bar.BarChartData.Bar
-import com.github.tehras.charts.bar.renderer.label.SimpleValueDrawer
-import com.github.tehras.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation
-import com.github.tehras.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation.Inside
-import com.github.tehras.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation.Outside
-import com.github.tehras.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation.XAxis
+import com.github.ranjith.charts.bar.BarChartData
+import com.github.ranjith.charts.bar.BarChartData.Bar
+import com.github.ranjith.charts.bar.renderer.label.SimpleValueDrawer
+import com.github.ranjith.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation
+import com.github.ranjith.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation.Inside
+import com.github.ranjith.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation.Outside
+import com.github.ranjith.charts.bar.renderer.label.SimpleValueDrawer.DrawLocation.XAxis
 
 class BarChartDataModel {
   private var colors = mutableListOf(

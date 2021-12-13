@@ -1,4 +1,4 @@
-package com.github.tehras.charts.ui
+package com.github.ranjith.charts.ui
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

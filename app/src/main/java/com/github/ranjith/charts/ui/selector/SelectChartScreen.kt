@@ -1,4 +1,4 @@
-package com.github.tehras.charts.ui.selector
+package com.github.ranjith.charts.ui.selector
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -13,12 +13,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.github.tehras.charts.theme.Margins
-import com.github.tehras.charts.ui.ChartScreen
-import com.github.tehras.charts.ui.ChartScreen.Bar
-import com.github.tehras.charts.ui.ChartScreen.Line
-import com.github.tehras.charts.ui.ChartScreen.Pie
-import com.github.tehras.charts.ui.ChartScreenStatus
+import com.github.ranjith.charts.theme.Margins
+import com.github.ranjith.charts.ui.ChartScreen
+import com.github.ranjith.charts.ui.ChartScreen.Bar
+import com.github.ranjith.charts.ui.ChartScreen.Line
+import com.github.ranjith.charts.ui.ChartScreen.Pie
+import com.github.ranjith.charts.ui.ChartScreenStatus
 
 @Composable
 fun SelectChartScreen() {

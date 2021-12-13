@@ -1,4 +1,4 @@
-package com.github.tehras.charts.ui.pie
+package com.github.ranjith.charts.ui.pie
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -27,10 +27,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.github.tehras.charts.piechart.PieChart
-import com.github.tehras.charts.piechart.renderer.SimpleSliceDrawer
-import com.github.tehras.charts.theme.Margins
-import com.github.tehras.charts.ui.ChartScreenStatus
+import com.github.ranjith.charts.piechart.PieChart
+import com.github.ranjith.charts.piechart.renderer.SimpleSliceDrawer
+import com.github.ranjith.charts.theme.Margins
+import com.github.ranjith.charts.ui.ChartScreenStatus
 
 @Composable
 fun PieChartScreen() {

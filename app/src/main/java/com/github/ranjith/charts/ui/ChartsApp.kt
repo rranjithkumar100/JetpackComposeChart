@@ -1,14 +1,14 @@
-package com.github.tehras.charts.ui
+package com.github.ranjith.charts.ui
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
-import com.github.tehras.charts.theme.ChartsTheme
-import com.github.tehras.charts.ui.bar.BarChartScreen
-import com.github.tehras.charts.ui.line.LineChartScreen
-import com.github.tehras.charts.ui.pie.PieChartScreen
-import com.github.tehras.charts.ui.selector.SelectChartScreen
+import com.github.ranjith.charts.theme.ChartsTheme
+import com.github.ranjith.charts.ui.bar.BarChartScreen
+import com.github.ranjith.charts.ui.line.LineChartScreen
+import com.github.ranjith.charts.ui.pie.PieChartScreen
+import com.github.ranjith.charts.ui.selector.SelectChartScreen
 
 @Composable
 fun ChartsApp() {
